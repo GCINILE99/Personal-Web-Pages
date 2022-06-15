@@ -6,41 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="simple-grid.css"> -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="simple-grid.css">
 </head>
 
 <body>
-    <div class="big">
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
 
-    <div class="Container">
-        <div class="Heading">
+    
+
+    
             <h1>GCINILE CORDECIA MAPHOSA</h1>
+
         </div>
-        <div class="Me">
+        <div class="col-6">
             <img src="PICS/gcin.jpeg" width="300">
 
-            <div>
-            </div>
+        </div>
+    </div>
+</div>
+
+            
 
 
         </div>
     </div>
 
 
-    <div class="City">
+    
+    <div class="container">
+        <div class="row">
+
         <h2>Paris is the city i would visit</h2>
-
-
-
-    </div>
-    <div class="mycity">
         
-        <div class="image">
-            <img src="PICS/PARIS.JPG" width="200">
+        <div class="col-6">
+
+       <img src="PICS/PARIS.JPG" width="200">
         </div>
        
-        <div class="description">
+        
+        <div class="col-6">
+
             
             Almost every traveler's bucket list includes a visit to Paris. It is known as the world's most romantic
             city,
@@ -51,17 +60,22 @@
             beautiful structures and monuments to complement the broad boulevards and lovely cafés. French cuisine is
             extremely well-known around the world, and some of the best can be found in Paris. There is world-class
             shopping and a thriving fashion industry, as well as numerous museums and art galleries to visit.
+        
         </div>
     </div>
+</div>
+
+  
     
     
 
-    <div class="span">
+<div class="container">
+
         
         <h2 class="spanish">Spanish is the language i would like to learn</h2>
     
    
-    <div class="language">
+ 
       
 
 
@@ -74,15 +88,16 @@
             and employees alike.Modern organizations are always looking for employees who can assist them with
             international trade, and the Spanish language is particularly useful in the current context.
         </div>
-    </div>
+    
   </div>
     
 
 
 
 
+  <div class="container">
 
-    <table class="table">
+    <table >
         <tr>
             <th>English</th>
             <th>Spanish</th>
@@ -107,29 +122,43 @@
         </tr>
 
     </table>
+ </div>
+
+ <div class="container">
 
     <div>
 
         <h2 class="uj">I did BengTech in Industrial Engineering in the Unirvesity Of Johannesburg</h2>
     </div>
     <h2 class="sub">My favourite subjects were:</h2>
-    <div class="subject">
-        <div class="qa">
+ </div>
+ <div class="container">
+    <div class="row">
+        <div class="col-3">
+
+        
             <div><h2>Quality Assurance</h2> </div> 
         <div><img src="PICS/qa.jpg" width="200" length= "100" ></div>
     </div>
+    <div class="col-3">
 
         
-         <div class="sd">  <div><h2>System dynamics</h2></div>
+         <h2>System dynamics</h2>
            <div><img src="PICS/sd.jpg" width="200" height="160"></div> 
         </div>
+        
+        <div class="col-3">
 
-         <div class="em"> <h2>Engineering mathematics</h2>
+        <h2>Engineering mathematics</h2>
             <img src="PICS/math.jpg" width="200" height="160"></div>
-       
+     
+        </div>
+    </div>
+</div>
+
        
 
-    </div>
+    
 
     <h1 class="histo">Historical Places</h1>
 
@@ -175,7 +204,6 @@
 
         
 
-</div>  
 </div>  
 
 
