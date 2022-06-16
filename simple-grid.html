@@ -8,39 +8,47 @@
     <title>Document</title>
     
     <link rel="stylesheet" href="simple-grid.css">
+ <style>
+     table,
+        th,
+        td {
+            border: 1px solid rgb(0, 0, 0);
+        } 
+ </style>
+
+
+
 </head>
 
 <body>
-    <div class="big">
-
-    <div class="Container">
-        <div class="Heading">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+   
             <h1>GCINILE CORDECIA MAPHOSA</h1>
         </div>
-        <div class="Me">
-            <img src="PICS/gcin.jpeg" width="300">
-
-            <div>
-            </div>
-
+        <div class="col-6">
+            <img src="gcin.jpeg" width="300">
 
         </div>
-    </div>
+       </div>
+    </div>   
 
 
-    <div class="City">
+    <div class="container">
+        <div class="row">
         <h2>Paris is the city i would visit</h2>
 
 
 
-    </div>
-    <div class="mycity">
+    
+    
         
-        <div class="image">
-            <img src="PICS/PARIS.JPG" width="200">
+        <div class="col-6">
+            <img src="PARIS.jpg" width="200">
         </div>
        
-        <div class="description">
+        <div class="col-6">
             
             Almost every traveler's bucket list includes a visit to Paris. It is known as the world's most romantic
             city,
@@ -53,15 +61,16 @@
             shopping and a thriving fashion industry, as well as numerous museums and art galleries to visit.
         </div>
     </div>
+   </div>
     
     
 
-    <div class="span">
+   <div class="container">
         
         <h2 class="spanish">Spanish is the language i would like to learn</h2>
     
    
-    <div class="language">
+    
       
 
 
@@ -75,14 +84,15 @@
             international trade, and the Spanish language is particularly useful in the current context.
         </div>
     </div>
-  </div>
+  
     
 
 
 
 
-
-    <table class="table">
+    <div class="container">
+        <table width="700px" border="2px">
+    
         <tr>
             <th>English</th>
             <th>Spanish</th>
@@ -107,25 +117,32 @@
         </tr>
 
     </table>
-
-    <div>
-
-        <h2 class="uj">I did BengTech in Industrial Engineering in the Unirvesity Of Johannesburg</h2>
-    </div>
-    <h2 class="sub">My favourite subjects were:</h2>
-    <div class="subject">
-        <div class="qa">
-            <div><h2>Quality Assurance</h2> </div> 
-        <div><img src="PICS/qa.jpg" width="200" length= "100" ></div>
     </div>
 
-        
-         <div class="sd">  <div><h2>System dynamics</h2></div>
-           <div><img src="PICS/sd.jpg" width="200" height="160"></div> 
+
+    <div class="container">
+
+        <h2 >I did BengTech in Industrial Engineering in the Unirvesity Of Johannesburg</h2>
+    </div>
+     
+    <div class="container">
+    <h2 >My favourite subjects were:</h2>
+   </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                
+            <h2>Quality Assurance</h2>  
+        <img src="qa.jpg" width="200" length= "100" >
+    </div>
+
+    <div class="col-3">
+         <h2>System dynamics</h2>
+           <img src="sd.jpg" width="200" height="160"> 
         </div>
-
-         <div class="em"> <h2>Engineering mathematics</h2>
-            <img src="PICS/math.jpg" width="200" height="160"></div>
+        <div class="col-3">
+         <h2>Engineering mathematics</h2>
+            <img src="math.jpg" width="200" height="160">
        
        
 
@@ -136,7 +153,8 @@
     
     
         
-       
+</div>
+     
 
      
          
