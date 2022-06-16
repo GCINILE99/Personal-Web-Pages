@@ -84,17 +84,19 @@ td {
 
  .qa{ 
       padding-left: 150px ;
+      flex:1;
 
     
 }
 .sd{
     padding-left: 20px ;
+    flex: 1;
 
 }
    
 .em{
     padding-left: 20px ;
-    
+    flex: 1;
 }
 
 .histo{
@@ -109,8 +111,19 @@ td {
 .freedom{
     display: flex;
 }
-@media(min-width:980px)
-    .big{
-    
-    
+@media(min-width:750px) {
+    .big {
+        
+        background-color: aqua;
+        
+
     }
+}
+@media(min-width:960px) {
+    .big {
+        background-color: blue;
+        
+    }
+}
+
+  
